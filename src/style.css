@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  height: 24rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 7rem;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 5rem;
+  border-radius: 5%;
+}
+
+div:first-child {
+  align-self: start;
+  padding-left: 10px;
+}
+
+div:last-child {
+  align-self: end;
+  padding-right: 10px;
+}
+
+.heart {
+  transform: rotate(180deg);
+}
